@@ -96,14 +96,8 @@ class ImportYoutubeDrafts
 
     function apiKeyHTML()
     { ?>
-        <input type="radio" name="iyd_apikey" value="AIzaSyBSoEcnGGu_1kc4Wz-p0mpVGIml0H5nOow" <?php checked(get_option("iyd_apikey"), "AIzaSyBSoEcnGGu_1kc4Wz-p0mpVGIml0H5nOow") ?>>
-        <label>AIzaSyBSoEcnGGu_1kc4Wz-p0mpVGIml0H5nOow</label><br>
-        <input type="radio" name="iyd_apikey" value="AIzaSyC74JNu-uvreWzUiCjXhQvuLvCn8Zk-IkU" <?php checked(get_option("iyd_apikey"), "AIzaSyC74JNu-uvreWzUiCjXhQvuLvCn8Zk-IkU") ?>>
-        <label>AIzaSyC74JNu-uvreWzUiCjXhQvuLvCn8Zk-IkU</label><br>
-        <input type="radio" name="iyd_apikey" value="AIzaSyD7aNTwEtq-ku7qNEIRtnnd3mA1Yp6dMnI" <?php checked(get_option("iyd_apikey"), "AIzaSyD7aNTwEtq-ku7qNEIRtnnd3mA1Yp6dMnI") ?>>
-        <label>AIzaSyD7aNTwEtq-ku7qNEIRtnnd3mA1Yp6dMnI</label><br>
-        <input type="radio" name="iyd_apikey" value="AIzaSyCdUBfmfNy-5HiKptAG3UlYWdTa0Mo3Tak" <?php checked(get_option("iyd_apikey"), "AIzaSyCdUBfmfNy-5HiKptAG3UlYWdTa0Mo3Tak") ?>>
-        <label>AIzaSyCdUBfmfNy-5HiKptAG3UlYWdTa0Mo3Tak</label><br>
+        <input type="radio" name="iyd_apikey" value="AIzaSyBSoEcnGGu_1kc4Wz-xxxxxxxxxxxxxxx" <?php checked(get_option("iyd_apikey"), "AIzaSyBSoEcnGGu_1kc4Wz-xxxxxxxxxxxxxxx") ?>>
+        <label>AIzaSyBSoEcnGGu_1kc4Wz-xxxxxxxxxxxxxxx</label><br>
     <?php }
 
     function searchTermHTML()
